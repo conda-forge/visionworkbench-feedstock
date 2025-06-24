@@ -1,7 +1,7 @@
 About visionworkbench-feedstock
 ===============================
 
-The NASA Vision Workbench is a general purpose image processing and computer vision library. It is used for processing images of planetary bodies, as part of of the [Ames Stereo Pipeline](https://stereopipeline.readthedocs.io/en/latest/introduction.html).
+The NASA Vision Workbench is a general purpose image processing and computer vision library, and part of of the [Ames Stereo Pipeline](https://stereopipeline.readthedocs.io/en/latest/introduction.html).
 
 Home: https://github.com/visionworkbench/visionworkbench
 
