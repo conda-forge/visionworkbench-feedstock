@@ -5,9 +5,9 @@ The NASA Vision Workbench is a general purpose image processing and computer vis
 
 Home: https://github.com/visionworkbench/visionworkbench
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/visionworkbench-feedstock/blob/main/LICENSE.txt)
-
 Package license: Apache-2.0
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/visionworkbench-feedstock/blob/main/LICENSE.txt)
 
 Current build status
 ====================
