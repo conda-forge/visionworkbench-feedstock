@@ -1,19 +1,13 @@
 About visionworkbench-feedstock
 ===============================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/visionworkbench-feedstock/blob/main/LICENSE.txt)
+The NASA Vision Workbench is a general purpose image processing and computer vision library. It is used for processing images of planetary bodies, as part of of the [Ames Stereo Pipeline](https://stereopipeline.readthedocs.io/en/latest/introduction.html).
 
 Home: https://github.com/visionworkbench/visionworkbench
 
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/visionworkbench-feedstock/blob/main/LICENSE.txt)
+
 Package license: Apache-2.0
-
-Summary: An image processing and computer vision library published by NASA
-
-Development: https://github.com/visionworkbench/visionworkbench
-
-Documentation: https://github.com/visionworkbench/visionworkbench
-
-The NASA Vision Workbench is a general purpose image processing and computer vision library. It is used for processing images of planetary bodies, as part of of the [Ames Stereo Pipeline](https://stereopipeline.readthedocs.io/en/latest/introduction.html).
 
 Current build status
 ====================
