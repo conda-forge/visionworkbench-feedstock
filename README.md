@@ -170,5 +170,4 @@ Feedstock Maintainers
 =====================
 
 * [@oleg-alexandrov](https://github.com/oleg-alexandrov/)
-* [@hobu](https://github.com/hobu/)
 
