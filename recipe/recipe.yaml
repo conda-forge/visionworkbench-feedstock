@@ -15,7 +15,7 @@ source:
         - openblas-find.patch
 
 build:
-  number: 0
+  number: 1
   skip: win
   script: build.sh
 
@@ -42,7 +42,7 @@ requirements:
 
 tests:
   - script:
-    - hillshade $PREFIX/share/vw/tests/tinyDemAN.tif
+      - hillshade $PREFIX/share/vw/tests/tinyDemAN.tif
 
 about:
   homepage: https://github.com/visionworkbench/visionworkbench
