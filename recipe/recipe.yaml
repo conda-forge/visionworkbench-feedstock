@@ -15,7 +15,7 @@ source:
         - openblas-find.patch
 
 build:
-  number: 0
+  number: 1
   skip: win
   script: build.sh
 
