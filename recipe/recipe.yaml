@@ -1,21 +1,21 @@
 context:
   name: visionworkbench
-  version: "3.5.6"
+  version: "3.5.7"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://github.com/visionworkbench/visionworkbench/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 4f1fcfff3a2ae058496b2b78437195dc073423a57d1a9db05a24782961278a2f
+  url: https://github.com/visionworkbench/visionworkbench/archive/refs/tags/${{ version }}.zip
+  sha256: 9e3ae200445ee74a29f01a4900503ae67e72bf53f6d38812148f6fbc24d4eef7
   patches:
     - if: osx
       then:
         - openblas-find.patch
 
 build:
-  number: 1
+  number: 0
   skip: win
   script: build.sh
 
@@ -37,18 +37,18 @@ requirements:
     - libjpeg-turbo
     - libpng
     - libtiff
-    # This is a dependency specified in the docs, but the maintaier said it is optional.
+    # This is a dependency specified in the docs, but the maintainer said it is optional.
     # - openexr
 
 tests:
   - script:
-      - hillshade $PREFIX/share/vw/tests/tinyDemAN.tif
+    - hillshade $PREFIX/share/vw/tests/tinyDemAN.tif
 
 about:
   homepage: https://github.com/visionworkbench/visionworkbench
   summary: 'An image processing and computer vision library published by NASA'
   description: |
-    The NASA Vision Workbench is a general purpose image processing and computer vision library. It is used by NASA for processing images of planetary bodies.
+    The NASA Vision Workbench is a general purpose image processing and computer vision library. It is part of the Ames Stereo Pipeline. 
   license: Apache-2.0
   license_family: Apache
   license_file: COPYING
@@ -57,5 +57,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - hobu
     - oleg-alexandrov
+    - hobu
