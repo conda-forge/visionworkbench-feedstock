@@ -9,13 +9,9 @@ package:
 source:
   url: https://github.com/visionworkbench/visionworkbench/archive/refs/tags/${{ version }}.zip
   sha256: 9e3ae200445ee74a29f01a4900503ae67e72bf53f6d38812148f6fbc24d4eef7
-  patches:
-    - if: osx
-      then:
-        - openblas-find.patch
 
 build:
-  number: 1
+  number: 2
   skip: win
   script: build.sh
 
@@ -32,13 +28,9 @@ requirements:
     - libgdal
     - libblas * *openblas
     - libopencv
-    # gdal will bring all these, but they are also direct as specified in the README.
-    # Let's add then explicitly here in case gdal ever removes them.
     - libjpeg-turbo
     - libpng
     - libtiff
-    # This is a dependency specified in the docs, but the maintainer said it is optional.
-    # - openexr
 
 tests:
   - script:
