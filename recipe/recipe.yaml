@@ -11,7 +11,7 @@ source:
   sha256: 9e3ae200445ee74a29f01a4900503ae67e72bf53f6d38812148f6fbc24d4eef7
 
 build:
-  number: 2
+  number: 0
   skip: win
   script: build.sh
 
@@ -27,6 +27,7 @@ requirements:
     - libboost-devel
     - libgdal
     - libblas * *openblas
+    - libopenblas
     - libopencv
     - libjpeg-turbo
     - libpng
