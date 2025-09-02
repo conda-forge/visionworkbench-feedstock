@@ -27,7 +27,7 @@ requirements:
     - libboost-devel
     - libgdal
     - libblas * *openblas
-    - libopenblas
+    - openblas
     - libopencv
     - libjpeg-turbo
     - libpng
