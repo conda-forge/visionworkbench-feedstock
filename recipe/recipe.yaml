@@ -11,7 +11,7 @@ source:
   sha256: 9e3ae200445ee74a29f01a4900503ae67e72bf53f6d38812148f6fbc24d4eef7
 
 build:
-  number: 0
+  number: 1
   skip: win
   script: build.sh
 
@@ -35,7 +35,7 @@ requirements:
 
 tests:
   - script:
-    - hillshade $PREFIX/share/vw/tests/tinyDemAN.tif
+      - hillshade $PREFIX/share/vw/tests/tinyDemAN.tif
 
 about:
   homepage: https://github.com/visionworkbench/visionworkbench
