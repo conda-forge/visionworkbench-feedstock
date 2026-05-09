@@ -23,7 +23,7 @@ flann:
 libboost_devel:
 - '1.90'
 libgdal:
-- '3.12'
+- '3.13'
 libjpeg_turbo:
 - '3'
 libopencv:
