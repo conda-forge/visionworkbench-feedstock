@@ -1,6 +1,6 @@
 context:
   name: visionworkbench
-  version: "3.6.3"
+  version: "3.7.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/visionworkbench/visionworkbench/archive/refs/tags/${{ version }}.zip
-  sha256: c70674a1fc952f964c5fb69b5b415dc03b47e7bac49e92e00a62696ac42a8110
+  sha256: d5ed3d52e3b9121fde98269994586d46a21f15bf2e2a1c36bedca48f1cea4323
 
 build:
   number: 0
